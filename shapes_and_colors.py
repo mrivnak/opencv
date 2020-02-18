@@ -77,5 +77,12 @@ color_overlay(Red,image,'red')
 color_overlay(Red2,image,'red')
 color_overlay(Blue,image,'blue')
 
-cv2.imshow("Image", image)
-cv2.waitKey(27)
+while(1):
+    cv2.imshow("Image", image)
+    k = cv2.waitKey(33)
+    if k==27:    # Esc key to stop
+        break
+    elif k==-1:  # normally -1 returned,so don't print it
+        continue
+    else:
+        print(k) # else print its value
