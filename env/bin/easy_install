@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/Users/michaelrivnak/Google Drive/IEEE/opencv/env/bin/python3" "$0" "$@"
-' '''
+#!/home/michaelrivnak/Documents/opencv/env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

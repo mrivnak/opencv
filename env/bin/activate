@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/michaelrivnak/Google Drive/IEEE/opencv/env"
+VIRTUAL_ENV="/home/michaelrivnak/Documents/opencv/env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

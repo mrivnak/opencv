@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/michaelrivnak/Google Drive/IEEE/opencv/env"
+set -gx VIRTUAL_ENV "/home/michaelrivnak/Documents/opencv/env"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
